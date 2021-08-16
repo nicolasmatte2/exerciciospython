@@ -1,0 +1,5 @@
+palavra = str(input('Digite seu nome completo: ')).strip()
+print('Seu nome em maiusculo fica {}'.format(palavra.upper()))
+print('Seu nome em minusculo fica {}'.format(palavra.lower()))
+print('Seu nome tem ao todo {}'.format(len(palavra)-(palavra.count(' '))))
+print('Seu primeiro nome tem {}'.format(palavra.find(' ')))
